@@ -1,0 +1,21 @@
+.my-profile {
+    width: 70%;
+    height: 95vh;
+    border-radius: 30px;
+    background: #000000b9;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+    position: absolute;
+    left: 13%;
+    top: 30px; 
+
+
+    .replis {
+        position: absolute;
+        top: 3%;
+      color: white;
+          left: 3%;
+        
+      }
+
+}

@@ -1,0 +1,139 @@
+.my-profile {
+    width: 60%;
+    height: 88vh;
+    border-radius: 30px;
+    background: #000000b9;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+    position: absolute;
+    left: 20%;
+    top: 28px; 
+
+    
+    
+    /*/////  Cambiar foto de perfil  /////*/
+    .user-picture {
+      width: 16%;
+      height: 17vh;
+      border-radius: 85px;
+      background:url(./no-user-picture.jpg) ;
+      background-size: cover;
+      background-position: center;
+      box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                  -15px -15px 30px rgb(60, 60, 60);
+      position: relative; 
+      left: 9%;
+      top: 5vh;      
+      
+   }
+
+   /*///  Cambiar foto de perfil  ///*/
+
+    .add-foto { 
+    font-size: 100%;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #989d9e 0%, #313131 100% );
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 0 2em;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 6vh;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+    width: 13vh;
+   position: relative;
+   left: 15vh;
+   top: 5%;
+  }
+  
+  .add-foto:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #ffffff;
+    transform: translateY(-0.1em);
+  }
+  
+  .add-foto:active {
+    box-shadow: inset 0px 0.1em 0.6em #595a61;
+    transform: translateY(0em);
+  }
+
+
+  .vertical-line {
+    width: 1px;
+    height: calc(30% - (2 * 30px));
+    background-color: #ffffff42;
+    position: absolute;
+    left: calc(25% + (2 * 30px));
+    top: 20px;
+}
+
+
+/*//// Mi nombre  ////*/
+.input {
+    border: 2px solid #e8e8e8;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #212121;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    top: -7vh;
+    width: 30%;
+    height: 6vh;
+    color: white;
+   }
+   
+   .input:focus {
+    outline-color: white;
+    background-color: #212121;
+    color: #e8e8e8;
+    box-shadow: 5px 5px #888888;
+   }
+
+
+   .name {
+    position: absolute;
+    top: 8%;
+    left: 38%;
+    color: white;
+
+}
+
+/*//// Cambiar contraseña  ////*/
+.change-password {
+    border: 2px solid #e8e8e8;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #212121;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 8%;
+    left: -7vh;
+    width: 30%;
+    height: 6vh;
+    color: white;
+   }
+   
+   .change-password:focus {
+    outline-color: white;
+    background-color: #212121;
+    color: #e8e8e8;
+    box-shadow: 5px 5px #888888;
+   }
+
+   .password-text {
+    position: absolute;
+    top: 24%;
+    left: 37%;
+    color: white;
+
+}
+
+}
